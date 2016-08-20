@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: springbootmulti
+  rabbitmq:
+    host: localhost
+    port: 32769
+
+app:
+  exchangeName: nexus
+  queueName: dasqueue
