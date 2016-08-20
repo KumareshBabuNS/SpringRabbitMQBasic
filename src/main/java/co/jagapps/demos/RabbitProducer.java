@@ -42,6 +42,8 @@ public class RabbitProducer {
     }
 
     public void send() {
-        this.rabbitTemplate.convertAndSend("dasqueue","hola amiguitos!");
+        System.out.println("Writing message in RabbitTemplate ...");
+        this.rabbitTemplate.convertAndSend(queueName,"Always be kind");
+        System.out.println("... Message written in RabbitTemplate");
     }
 }

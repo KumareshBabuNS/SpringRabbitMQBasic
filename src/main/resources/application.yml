@@ -1,6 +1,6 @@
 spring:
   application:
-    name: springbootmulti
+    name: springrabbitmqbasic
   rabbitmq:
     host: localhost
     port: 32769
