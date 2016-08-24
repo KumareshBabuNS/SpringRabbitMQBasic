@@ -2,3 +2,5 @@ target/*
 *.iml
 .idea/*
 .mvn/*
+.idea/
+target/
