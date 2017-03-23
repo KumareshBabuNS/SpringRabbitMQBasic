@@ -1,0 +1,8 @@
+---
+applications:
+- name: spring-rabbitmq-basic
+  host: spring-rabbitmq-basic
+  memory: 512M
+  instances: 1
+  health-check-type: none
+  path: ./target/springrabbitmqbasic-0.0.1-SNAPSHOT.jar
